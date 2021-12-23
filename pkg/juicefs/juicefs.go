@@ -429,6 +429,7 @@ func (j *juicefs) ceFormat(secrets map[string]string, noUpdate bool, extraEnvs m
 		"access-key",
 		"block-size",
 		"compress",
+		"trash-days",
 	}
 	keysStripped := []string{"secret-key"}
 	isOptional := map[string]bool{
